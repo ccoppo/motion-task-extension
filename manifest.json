@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Motion Task Data Logger",
+  "version": "1.0",
+  "description": "Logs Motion workspace and task data",
+  "permissions": [
+    "storage"
+  ],
+  "host_permissions": [
+    "https://api.usemotion.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://app.usemotion.com/*"
+      ],
+      "js": ["content.js"]
+    }
+  ],
+  "action": {
+    "default_title": "Motion Task Data Logger"
+  },
+  "options_page": "options.html"
+}
