@@ -155,4 +155,4 @@ motion-task-extension/
 This project is for demonstration purposes only. Not for commercial use or distribution.
 
 ---
-Created by [Your Name] for technical demonstration and portfolio purposes.
+Created by Cassandra Coppo for technical demonstration and portfolio purposes.
